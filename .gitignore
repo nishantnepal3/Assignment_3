@@ -1,0 +1,17 @@
+node_modules/
+1. bash
+2. Copy code
+3. # Ignore node_modules
+4. node_modules/
+5. 
+6. # Ignore log files
+7. *.log
+8. 
+9. # Ignore OS-specific or editor-specific files
+10. .DS_Store
+11. .vscode/
+12. Thumbs.db
+1. bash
+2. Copy code
+3. git rm -r --cached node_modules/
+4. 
